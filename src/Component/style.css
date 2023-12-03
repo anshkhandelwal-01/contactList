@@ -1,0 +1,75 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    color: blue;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+  }
+  
+  input[type="text"] {
+    width: 150px;
+  }
+  
+  input[type="text"]:last-child {
+    margin-right: 0;
+  }
+  
+  div > button {
+    margin-top: 10px;
+  }  
+
+  .contacts{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  b{
+    color: blue;
+  }
